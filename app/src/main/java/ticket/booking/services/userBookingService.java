@@ -1,4 +1,5 @@
 package ticket.booking.services;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ticket.booking.entites.user;
@@ -33,7 +34,7 @@ public class userBookingService {
         return foundUser.isPresent();
     }
 
-    public Boolean signUp(User user){
+    public Boolean signUp(user user){
         try{
             userList.add(user);
             saveUserListToFile();
