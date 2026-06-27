@@ -18,17 +18,17 @@ public class ticket {
 
     public ticket(){}
 
-    public ticket(String ticketId, String userId, String source, String destination, String dateOfTravel, train train){
+    public ticket(String ticketId, String userId, String source, String destination, Date dateoftravel, train train){
         this.ticketId = ticketId;
         this.userId = userId;
         this.source = source;
         this.destination = destination;
-        this.dateOfTravel = dateOfTravel;
+        this.dateoftravel = dateoftravel;
         this.train = train;
     }
 
     public String getTicketInfo(){
-        return String.format("Ticket ID: %s belongs to User %s from %s to %s on %s", ticketId, userId, source, destination, dateOfTravel);
+        return String.format("Ticket ID: %s belongs to User %s from %s to %s on %s", ticketId, userId, source, destination, dateoftravel);
     }
 
     public String getTicketId(){
@@ -63,15 +63,15 @@ public class ticket {
         this.destination = destination;
     }
 
-    public String getDateOfTravel(){
-        return dateOfTravel;
+    public Date getDateOfTravel(){
+        return dateoftravel;
     }
 
-    public void setDateOfTravel(String dateOfTravel){
-        this.dateOfTravel = dateOfTravel;
+    public void setDateOfTravel(Date dateoftravel){
+        this.dateoftravel = dateoftravel;
     }
 
-    public Train getTrain(){
+    public train getTrain(){
         return train;
     }
 
@@ -81,6 +81,6 @@ public class ticket {
 
 }
 
-}
+
 
 

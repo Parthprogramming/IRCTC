@@ -1,7 +1,5 @@
 package ticket.booking.entites;
 
-import java.sql.Date;
-import java.sql.Time;
 import java.util.List;
 import java.util.Map;
 
@@ -17,6 +15,8 @@ public class train {
     private Map<String, String> stationTimes;
 
     private List<String> stations;
+
+    public train(){}
 
     public train(String trainId, String trainNo, List<List<Integer>> seats, Map<String, String> stationTimes, List<String> stations){
         this.trainId = trainId;

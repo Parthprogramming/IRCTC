@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Lovepreet Singh",
+        "password": "12345",
+        "hashPassword": "$2a$10$MqonEcizso4Re9iFEMajHOIHCUd5O3Q.XZX779C50ZnC/Hb6mirwW",
+        "ticketsBooked": [],
+        "userId": "abcdefgh"
+    },
+    {
+        "name": "rahul",
+        "password": "hhbb11",
+        "hashPassword": "$2a$10$O/OWE.xh3gttMANiM4BIX.mo.4/myik1J739DZ25ecVENk8xhMCW2",
+        "ticketsBooked": [],
+        "userId": "fe46da4d-c8d1-4229-97e6-600dce6941e8"
+    }
+]
